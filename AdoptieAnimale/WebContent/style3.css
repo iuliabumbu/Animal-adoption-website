@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+
+
+
+.signup-header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background-color:#f0c86c;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  border: 1px solid #f0c86c;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #f0c86c;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  font-size:16px;
+}
+
+.signup-group {
+  margin: 10px 0px 10px 0px;
+}
+.signup-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.signup-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size:14px;
+}
+.signup-btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background:black;
+  border: none;
+  border-radius: 5px;
+}
+
+ mark{
+  color:grey;
+  background:black;
+  font-size:26px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+
+/* Navbar */
+
+header{
+	width:100%;
+	height:100px;
+	background-color: #260701;
+	font-family: 'Brush Script MT', cursive;
+}
+
+h1{
+	position:absolute;
+	padding:3px;
+	float:left;
+	margin-left: 2%;
+	margin-top: 10px;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 60px;
+}
+
+h{
+	position:absolute;
+	padding:3px;
+	float:left;
+	margin-left: 2%;
+	margin-top: 30px;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+}
+h2 {
+	position:absolute;
+	background-color: #3d2001;
+	padding:3px;
+	float:left;
+	margin-left: 2%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 1px 2px rgba(black,.15);
+}
+
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 5px;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+a{
+	text-align: center;
+	text-decoration: none;
+	color:white;
+    font-size: 35px;
+}
+
+a:hover {
+	color: #F0c330;
+	transition: 0.5s;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(fundal.jpg) no-repeat;
+	background-size: cover;
+}
+/* Content */
+.tiazon-content{
+	padding-bottom: 50px;
+	padding-top: 50px;	
+}
+
+/* Footer */
+.footer{
+	background: #260701;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 2px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+table th{
+	text-align: left;
+	background-color: #3d2001;
+	color: white;
+	padding: 4px 30px 4px 8px;
+}
+
+table td{
+	border: 1px solid black;
+	padding: 4px 8px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  background-color:#fff2e6;
+  color: #3d2001;
+}
+.text-block {
+  color: white;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: gray;
+}
